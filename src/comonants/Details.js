@@ -25,6 +25,10 @@ const Details = (props) => {
         <b>Sub Region:</b>{props.subregion}<br/>
         <br/>
         <b>Capital:</b>{props.Capital}<br/>
+        <br/>
+        <br/>
+        <br/>
+        <b>Borders:</b>{props.Borders}<br/><br/>
         </div>
 
     </p>

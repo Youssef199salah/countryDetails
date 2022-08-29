@@ -20,9 +20,12 @@ export const CountryDetails = () => {
         const tld  = item?.tld?.join(" , ")
         const languages =Object.values(item.languages).join(" , ");
         const currencies =Object.values(item.currencies)
-        console.log(currencies[0].name);
+       // const Borders =item?.borders?.join(" , ");
+        //console.log(item.borders);
+
         return(
             <Details
+               // Borders = {Borders}
                 country_name={item.name.common}
                 NativeName={nativeName[0].common}
                 tld={tld}
